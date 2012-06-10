@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+make ARCH=arm CROSS_COMPILE=/home/ddiaz/android/arm-2009q3/bin/arm-none-eabi- EXTRA_AFLAGS=-mfpu=neon shooter_defconfig
